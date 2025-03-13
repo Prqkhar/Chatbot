@@ -22,7 +22,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBk0zNXsTW7Zn_KBZ1Xi82xCegNO6j8olY",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=",
         {
           contents: [{ parts: [{ text: question }] }],
         }
